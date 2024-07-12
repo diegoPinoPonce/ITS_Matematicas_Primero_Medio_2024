@@ -1,0 +1,33 @@
+.btn {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    background-color: #5852F2 !important;
+    border-color: #5852F2 !important;
+    border-radius: 20px !important;
+    margin-right: 20px !important;
+}
+
+.btn:hover, .btn:active{
+    background-color: #4E4BBF !important;
+    border-color: #4E4BBF !important;
+    color: white !important;
+}
+
+.btn i{
+    color: white;
+    font-size: 15px;
+}
+
+.btn:hover i, .btn:active i{
+    color: white;
+}
+
+Button i{
+    color: white;
+    font-size: 15px;
+    transition: color 0.15s;
+}
+
+Button:hover i, Button:active i{
+    color: black;
+}

@@ -1,0 +1,83 @@
+#root {
+    background-color: #242424;
+    color: rgba(255, 255, 255);
+    margin-top: 59px;
+}
+
+.btn {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background-color: #5852F2 !important;
+    border-color: #5852F2 !important;
+    border-radius: 20px !important;
+    color: white !important;
+    font-size: 18px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover, .btn:active{
+    background-color: #5852F2 !important; /* Mantener el color original */
+    border-color: #5852F2 !important; /* Mantener el color original */
+    color: white !important;
+    transform: scale(1.1); /* Aumentar el tamaño del botón */
+}
+
+.btn:focus {
+    outline: none; /* Remover el borde de enfoque predeterminado */
+}
+
+.container{
+    min-height: 91vh;
+    padding-top: 20px;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: rgba(38, 38, 38, 1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+    color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+}
+
+.wrapper:hover{
+    box-shadow: 0 0 10px #5852F2;
+}
+
+.div1 {
+    flex: 3;
+}
+
+.div2 {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../images/bgbtn.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden;    /* Para recortar la imagen con los bordes redondeados */
+    position: relative;
+}
+
+.div2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Opacidad negra */
+    z-index: 1;
+}
+
+.div2 > * {
+    position: relative;
+    z-index: 2; /* Asegura que el contenido del div esté sobre el pseudo-elemento */
+}

@@ -1,0 +1,41 @@
+.container{
+    min-height: 91vh;
+    padding-top: 20px;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: rgba(38, 38, 38, 1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+    color: white;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.containerButtons{
+    width: 60%;
+    padding: 10px 20px;
+    border: 2px solid rgba(255, 255, 255, .7);
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+.DropdownButton button{
+    font-size: 20px;
+    border-radius: 40px;
+    --bs-btn-padding-x: 8rem;
+    --bs-btn-bg: #5852F2;
+    --bs-btn-border-color: #5852F2;
+    --bs-btn-hover-bg: #5852F2;
+    --bs-btn-hover-border-color: #5852F2;
+    --bs-btn-active-bg: #5852F2;
+    --bs-btn-active-border-color: #5852F2;
+}

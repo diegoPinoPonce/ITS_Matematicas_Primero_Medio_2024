@@ -1,0 +1,23 @@
+.navBar{
+    background-color: #262626 !important;
+}
+
+.btnLogin{
+    margin-right: 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-radius: 100px !important;
+}
+
+.btnRegister{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background-color: #5852F2 !important;
+    border-color: #5852F2 !important;
+    border-radius: 100px !important;
+}
+
+.btnRegister.ex2:hover, .btnRegister.ex2:active{
+    background-color: #4E4BBF !important;
+    border-color: #4E4BBF !important;
+}

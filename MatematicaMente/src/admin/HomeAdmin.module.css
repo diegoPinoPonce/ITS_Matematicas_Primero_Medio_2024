@@ -1,0 +1,28 @@
+.container{
+    min-height: 91vh;
+    padding-top: 20px;
+}
+
+.userTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customTable{
+    border-radius: 20px !important;
+    --bs-table-bg: #4E4BBF !important;
+    --bs-table-border-color: #262626 !important;
+    --bs-table-accent-bg: #262626 !important;
+    --bs-table-color: #ffffff !important;
+    --bs-table-striped-bg: #262626 !important;
+    --bs-table-striped-color: #ffffff !important;
+    --bs-table-hover-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+  
+.userTable th, .userTable td {
+    border: 2px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
